@@ -5,8 +5,10 @@ from utils import load_model, predict
 
 # defining the main app
 app = FastAPI(title="predictr", docs_url="/")
-
+# random change
 # class which is expected in the payload
+
+
 class QueryIn(BaseModel):
     sepal_length: float
     sepal_width: float
